@@ -1,6 +1,7 @@
 class SimpleReport:
     @staticmethod
     def earliest_manufacturing_date(product_list):
+
         return min(
             [
                 each["data_de_fabricacao"]
